@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url("https://wallpapers.com/images/featured/green-background-ivfksvptao7sdhrg.jpg");
+  background-repeat: no-repeat; */
+  background-color:rgb(218, 219, 242);
+  width: 100%;;
+  
+ 
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.in{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width:82%;
+  padding:12px;
+  border-radius: 10px;
+  background-color: bisque;
+
+}
+
+.bt{
+  position:fixed;
+  bottom: 0;
+  right:0;
+  padding:12px;
+  width:16%;
+  border-radius: 10px;
+  background-color:khaki;
+  font-weight: bold;
+}
+
+::placeholder{
+  color: black;
+}
+.me{
+  border:4px solid rgb(94, 90, 90);
+  border-radius: 5px;
+  width:50%;
+  margin-bottom: 10px;
+  padding:5px;
+  color:rgb(41, 103, 36);
+  font-style:italic;
+  font-weight: 800;
+  
+  background-color:blanchedalmond;
+}
+h4{
+  width:5%;
+  color:blueviolet;
+  margin-top: 0%;
+  
+}
+
+.chats{
+  width:fit-content;
+  background-color: darkslategrey;
+  border-radius: 15px;
+  color:red;
+  padding:5px;
+}
+h2{
+  /* text-align: center; */
+  background-color:darksalmon;
+  border-radius: 10px;
+  padding:5px;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.user{
+  display: flex;
+  /* justify-content: space-between; */
+  
+}
+.date{
+  display: flex;
+  justify-content: flex-end;
+}
+.scrollable-container{
+  height:60vh; /* Set a fixed height for the container */
+  overflow-y: auto; /* Add a vertical scrollbar if content exceeds the height */
+  border: 3px solid #cabebe; /* Add a border for visual clarity */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px rgba(232, 230, 230, 0.3);
+}
+p{
+  color:red;
+}
+.mee{
+  border:4px solid rgb(94, 90, 90);
+  border-radius: 5px;
+  width:50%;
+  margin-bottom: 10px;
+  margin-left: auto;
+  padding:5px;
+  color:rgb(41, 103, 36);
+  font-style:italic;
+  font-weight: 800;
+  
+  background-color:blanchedalmond;
+}
+/* .rooms{
+ 
+
+ 
+
+} */
+.room{
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50vh;
+  margin-bottom: 50vh;
+  background:#cabebe;
+ padding-bottom:25px;
+ border: 2px solid whitesmoke;
+ box-shadow: 10px 10px 60px gray;
+
+  
+}
+h1{
+  background-color: blueviolet;
+  padding:15px;
+  margin-top: 0%;
+  text-shadow: 2px 2px 4px rgb(221, 255, 0);
+}
+.inn{
+   padding:8px;
+   width:35%;
+   border-radius: 8px;
+   margin-top:30px;
+}
+::placeholder{
+  color:black;
+  font-weight: 800;
+}
+.rom_button{
+   width:35%;
+   padding: 10px;
+   margin-top: 35px;
+   font-weight: bold;
+   border-radius: 25px;
+   background-color: darksalmon; 
+}
+.log{
+  border: 4px solid wheat;
+  width: 25%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.sign{
+  border:4px solid white;
+  width:25%;
+  margin-left: auto;
+  margin-right: auto;
+}
